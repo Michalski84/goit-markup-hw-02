@@ -179,7 +179,6 @@ body {
 .menu-button:focus {
     background-color: #2196F3;
     color: #FFFFFF;
-    border: none;
 }
 
 .image-description {
