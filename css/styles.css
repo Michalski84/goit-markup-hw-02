@@ -1,19 +1,19 @@
 :root {
-    --background-color: #FFFFFF;
-    --color: #212121;
-    --hover-color: #2196F3;
-    --text-color: #757575;
-    --logo-color: #000000;
-    --second-background-color: #F5F4FA;
-    --button-color: #E5E5E5;
-    --title-color: #2F303A;
+    --white: #FFFFFF;
+    --carbon: #212121;
+    --light-blue: #2196F3;
+    --light-grey: #757575;
+    --black: #000000;
+    --beige: #F5F4FA;
+    --whitish: #E5E5E5;
+    --dark-grey: #2F303A;
 
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--white);
     font-family: 'Roboto','Raleway', sans-serif;
-    color: var(--color);
+    color: var(--carbon);
     
 }
 
@@ -26,12 +26,12 @@ body {
 }
 
 .main-title-section {
-    background-color: var(--title-colorr);
+    background-color: var(--dark-grey);
 }
 
 .header_text {
     font-weight: 900;
-    color: var(--background-color);
+    color: var(--white);
     line-height: 1.36;
     font-size: 44px;
     
@@ -39,7 +39,7 @@ body {
 
 .size-medium {
     font-weight: 700;
-    color: var(--color);
+    color: var(--carbon);
     font-size: 36px;
     line-height: 1.17;
 }
@@ -53,32 +53,32 @@ body {
 
 .navigation-link {
     text-decoration: none;
-    color: var(--color);
+    color: var(--carbon);
     font-size: 14px;
     line-height: 1.17;
 }
 
 .navigation-link:hover {
-    color: var(--hover-color);
+    color: var(--light-blue);
 }
 
 .navigation-link:focus {
-    color: var(--hover-color);
+    color: var(--light-blue);
 }
 
 .kontakt {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--light-grey);
     font-size: 14px;
     line-height: 1.17;
 }
 
 .kontakt:hover {
-    color: var(--hover-color);
+    color: var(--light-blue);
 }
 
 .kontakt:focus {
-    color: var(--hover-color);
+    color: var(--light-blue);
 }
 
 .list {
@@ -89,22 +89,22 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-decoration: none;
-    color: var(--logo-color);
+    color: var(--black);
     font-size: 26px;
     line-height: 1.4;
 }
 
 .web {
-    color: var(--hover-color);
+    color: var(--light-blue);
 }
 
 .menu {
-    color: var(--background-color);
+    color: var(--white);
 }
 
 .main-button {
-    background-color: var(--hover-color);
-    color: var(--background-color);
+    background-color: var(--light-blue);
+    color: var(--white);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -114,20 +114,20 @@ body {
     border: none;
 }
 
-.main-button:hover {
-    background-color: var(--button-color);
-    color: var(--hover-color);
+/* .main-button:hover {
+    background-color: var(--whitish);
+    color: var(--light-blue);
 }
 
 .main-button:focus {
-    background-color: var(--button-color);
-    color: var(--hover-color);
-}
+    background-color: var(--whitish);
+    color: var(--light-blue);
+} */
 
 .menu-button {
-    color: var(--color);
+    color: var(--carbon);
     font-size: 16px;
-    background-color: var(--button-color);
+    background-color: var(--beige);
     font-family: inherit;
     font-weight: 500;
     cursor: pointer;
@@ -136,42 +136,42 @@ body {
 }
 
 .menu-button:hover {
-    background-color: var(--hover-color);
-    color: var(--background-color);
+    background-color: var(--light-blue);
+    color: var(--white);
 }
 
 .menu-button:focus {
-    background-color: var(--hover-color);
-    color: var(--background-color);
+    background-color: var(--light-blue);
+    color: var(--white);
 }
 
 .person-name {
-    color: var(--color);
+    color: var(--carbon);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.17;
 }
 
 .function {
-    color: var(--text-color);
+    color: var(--light-grey);
     font-size: 16px;
     line-height: 2;
 }
 
 .footer {
-    background-color: var(--title-color);
-    color: var(--background-color);
+    background-color: var(--dark-grey);
+    color: var(--white);
     text-decoration: none;
     font-style: inherit;
 
 }
 
 .contact-link:hover {
-    color: var(--hover-color);
+    color: var(--light-blue);
 }
 
 .contact-link:focus {
-    color: var(--hover-color)
+    color: var(--light-blue)
 }
 
 .contact-list {
@@ -184,7 +184,7 @@ body {
     text-decoration: none;
     font-family: inherit;
     font-style: normal;
-    color: var(--background-color);
+    color: var(--white);
     filter: opacity(60%);
 }
 
@@ -192,13 +192,13 @@ body {
 .image-description {
     font-size: 18px;
     font-weight: 700;
-    color: var(--color);
+    color: var(--carbon);
     line-height: 2;
 
 }
 
 .team {
-    background-color: var(--second-background-color);
+    background-color: var(--beige);
 }
 
 .address {
